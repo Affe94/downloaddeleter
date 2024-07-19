@@ -4,7 +4,7 @@ Example:
 ```
 services:
   downloaddeleter:
-    image: downloaddeleter
+    image: github.com/Affe94/downloaddeleter
     volumes:
       - c:\test_downloads:/downloads
       - c:\test_destination:/destination
